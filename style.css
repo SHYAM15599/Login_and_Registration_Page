@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 360px;
+    height: 520px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.creatbox{
+    width: 360px;
+    height: 620px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px blueviolet;
+
+
+}
+.loginbox input[type="submit"]:active
+{
+    transform: scale(0.98);
+}
+
+ 
+
+
+.loginbox a:hover
+{
+    color: #fff;
+    
+}
+
+.creatbox input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.creatbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.creatbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.creatbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.creatbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px blueviolet;
+
+
+}
+.creatbox input[type="submit"]:active
+{
+    transform: scale(0.98);
+}
+
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+
+}
+
